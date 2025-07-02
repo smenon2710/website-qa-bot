@@ -1,0 +1,17 @@
+{
+  "name": "website-qa-bot",
+  "version": "1.0.0",
+  "description": "Company website question-answering bot using Firecrawl + OpenAI",
+  "type": "module",
+  "main": "run_firecrawl.js",
+  "scripts": {
+    "scrape": "node run_firecrawl.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.0.0",
+    "firecrawl": "^0.0.30",
+    "node-fetch": "^3.3.2",
+    "playwright": "^1.53.2",
+    "turndown": "^7.2.0"
+  }
+}

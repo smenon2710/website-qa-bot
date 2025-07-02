@@ -1,0 +1,29 @@
+# Python artifacts
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Node.js artifacts
+node_modules/
+package-lock.json
+
+# Virtual environments
+.venv/
+
+# Env secrets
+.env
+
+# Playwright outputs
+data/
+scraped_data/
+chroma_db/
+faiss_index/
+
+# Output files
+*.md
+*.zip
+
+# Logs and OS files
+.DS_Store
+
+v1_run_playwright.js
